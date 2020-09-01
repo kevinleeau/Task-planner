@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    text-align: center;
+    background-color: rgb(110, 104, 104);
+}
+.navbar{
+    padding: 0 20px;
+}
+.row{
+    flex: 1;
+    padding-top: 2rem;
+    padding-right: 0px;
+    background-color: rgb(236, 234, 231);
+}
+.cards{
+    padding-left: 0px;
+    flex: 5;
+    padding: 10rem;
+    
+}
