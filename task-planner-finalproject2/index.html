@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9cf35cace6.js" crossorigin="anonymous"></script>
+    <title>Task planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <section>
+      <div class="container fluid">
+      <!-- welcome section -->
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="">Task Planner</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link fas fa-home" href="#">  Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fas fa-cog" href="#">  Setting</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link far fa-calendar-check" href="#">  Calendar</a>
+            </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link fas fa-thumbtack dropdown-toggle" data-toggle="dropdown">Task</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">New</a>
+                        <a href="#" class="dropdown-item">Drafts</a>
+                        <a href="#" class="dropdown-item">Important</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#"class="dropdown-item">Done</a>
+                    </div>
+                </li>
+            </li>
+        </ul>
+    </div>
+</nav><br>
+<br>
+<br>
+</section>
+<nav class="nav nav-pills">
+    <a href="#" class="nav-item nav-link">To do</a>
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+        <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Inbox</a>
+            <a href="#" class="dropdown-item">Sent</a>
+            <a href="#" class="dropdown-item">Drafts</a>
+        </div>
+    </div>
+    <a href="#" class="nav-item nav-link" tabindex="-1">Reports</a>
+</nav>
+
+    <div class="container fluid">
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Task 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Task 2</h5>
+                        <p class="card-text">Vestibulum id metus ac nisl bibendum nibh scelerisque non purus in suspendisse.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Task 3</h5>
+                        <p class="card-text">Pulvinar leo id risus enim. Bibendum varius tincidunt pellentesque malesuada in.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="comment">Comment:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    
