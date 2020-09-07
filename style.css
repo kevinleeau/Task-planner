@@ -1,10 +1,13 @@
+body{
+    color: aliceblue;
+}
 .main{
     display: flex;
     text-align: center;
     background-color: rgb(110, 104, 104);
 }
 .navbar{
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .row{
     flex: 1;
